@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">My Blog</div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h1>Welcome to My Blog</h1>
+        <p>Your go-to place for articles, stories, and poetry.</p>
+        <!-- Specialized Content: Travel Tips -->
+        <section>
+            <h2>Travel Tips</h2>
+            <div class="blog-post">
+                <h3>Explore Hidden Gems in Europe</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <a href="#" class="button">Read more</a>
+            </div>
+            <div class="blog-post">
+                <h3>Packing Tips for Backpackers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <a href="#" class="button">Read more</a>
+            </div>
+        </section>
+    </section>
+    
+    <section id="blog">
+        <h2>Latest Posts</h2>
+        <div class="blog-post">
+            <h3>Post Title 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <a href="#" class="button">Read more</a>
+        </div>
+        <div class="blog-post">
+            <h3>Post Title 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <a href="#" class="button">Read more</a>
+        </div>
+    </section>
+    
+    <section id="tutorials">
+        <h2>Tutorials and Guides</h2>
+        <!-- Tutorials: How-to Articles -->
+        <div class="blog-post">
+            <h3>How to Plan Your First Solo Trip</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <a href="#" class="button">Read more</a>
+        </div>
+        <div class="blog-post">
+            <h3>Beginner's Guide to Photography</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <a href="#" class="button">Read more</a>
+        </div>
+    </section>
+    <section id="blog-posts">
+        <!-- Existing posts loaded from HTML or dynamically -->
+        <div class="blog-post">
+            <h3>Post Title</h3>
+            <p>Post content...</p>
+            <a href="#" class="button">Read more</a>
+        </div>
+    </section>
+</main>
+<aside>
+    <h3>Categories</h3>
+    <ul>
+        <li><a href="#">Poetry</a></li>
+        <li><a href="#">Stories</a></li>
+        <li><a href="#">Articles</a></li>
+        <!-- Resource Lists: Recommended Books -->
+        <li><a href="#">Recommended Books</a></li>
+    </ul>
+    <!-- Recent Posts: Latest Articles -->
+    <h3>Recent Posts</h3>
+    <ul>
+        <li><a href="#">Post Title 1</a></li>
+        <li><a href="#">Post Title 2</a></li>
+    </ul>
+</aside>
+
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+    <!-- Social Media Icons as Images -->
+    <div class="social-icons">
+        <a href="#" class="social-icon"><img src="fb.png" alt="Facebook"></a>
+        <a href="#" class="social-icon"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#" class="social-icon"><img src="insta.png" alt="Instagram"></a>
+        <a href="#" class="social-icon"><img src="pint.png" alt="Pinterest"></a>
+    </div>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <button onclick="loadMorePosts()">Load More Posts</button>
+</footer>
+<!-- Add this button at the end of your HTML body -->
+<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button>
+<script src="script.js"></script>
+</body>
+</html>
